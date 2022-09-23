@@ -7,11 +7,111 @@
 
     <title>Área de login com JavaScript</title>
 
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
+
+    <div class="main">
+        <div class="container a-container" id="a-container">
+            <form 
+                class="form"
+                id="a-form"
+                method=""
+                action=""
+                >
+                    <h2 class="form_title title"> Criar conta </h2>                   
+                    <div class="form__icon"></div>
+                    <span class="form__span"> Ou use o email para se registrar</span>
+
+                    <input 
+                        class="form__input"
+                        type="texto"
+                        placeholder="Nome" 
+                        />
+                    <input 
+                        class="form__input"
+                        type="texto"
+                        placeholder="Email" 
+                        />
+                    <input 
+                        class="form__input"
+                        type="senha"
+                        placeholder="Senha" 
+                        />
+
+                    <button 
+                        class="form__button button submit"
+                        > Registrar-se
+                    </button>
+            </form>
+        </div>
+
+        <div class="container b-container" id="b-container">
+            <form 
+                class="form"
+                id="b-form"
+                method=""
+                action=""
+                >
+                    <h2 class="form_title title"> Acessar conta </h2>                   
+                    <div class="form__icon"></div>
+                    <span class="form__span"> Ou use o email da sua conta</span>
+
+                    <input 
+                        class="form__input"
+                        type="texto"
+                        placeholder="Email" 
+                        />
+                    <input 
+                        class="form__input"
+                        type="senha"
+                        placeholder="Senha" 
+                        />
+                    
+                    <a class="form__link"> Esqueceu a senha? </a>
+
+                    <button 
+                        class="form__button button submit"
+                        > Entrar
+                    </button>
+            </form>
+        </div>
+
+        <div 
+            class="switch"
+            id="switch-cnt"
+            >
+            <div class="switch__circle"></div>
+            <div class="switch__circle switch__circle--t"></div>
+            <div class="switch__container" id="switch-c1">
+                <h2 class="switch__title title"> Seja bem vindo de volta ! </h2> 
+                <p class="switch__description description">
+                    Para se manter conectado, entre novamente na sua conta.
+                </p>   
+                <button 
+                    class="switch__button button switch-btn"
+                    > Entrar
+                </button>
+            </div>
+            
+            <div
+                class="switch__container is-hidden"
+                id="switch-c2"
+                >
+                    <h2 class="switch__title title"> Olá amigo !</h2>
+                    <p class="switch__description description">
+                        Insira seus dados pessoais e inicie sua jornada conosco
+                    </p>
+                    <button
+                        class="switch__button button switch"
+                        > Registrar-se
+                    </button>
+            </div>
+        </div>
+    </div>
     
-    <script></script>
+    <script src="index.js"></script>
 </body>
 </html>
