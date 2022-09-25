@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center; 
     color: #a0a5a8;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'sans-serif';
     font-size: 12px;
     background-color: #ecf0f3;
 }
@@ -75,7 +75,7 @@ body {
     height: 100%;
 }
 
-.form__icon {
+.form__icons {
     object-fit: contain;
     width: 30px;
     margin: 0 5px;
@@ -83,7 +83,7 @@ body {
     transition: 0.15s;
 }
 
-.form__icon:hover {
+.form__icons:hover {
     opacity: 1;
     transition: 0.15s;
     cursor: pointer;
